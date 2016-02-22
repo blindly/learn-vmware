@@ -1,0 +1,66 @@
+---
+title: Learn VMWare
+layout: left_sidebar
+---
+
+		<!-- Main -->
+			<div id="main-wrapper">
+				<div class="divider">&nbsp;</div>
+				<div id="main">
+					<div class="container">
+						<div class="row">
+							<div id="sidebar" class="4u">
+								<section>
+									<section>
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=learnvmwarexy-20&marketplace=amazon&region=US&placement=1118925157&asins=1118925157&linkId=JLIMRVDKCY3K6T3T&show_border=true&link_opens_in_new_window=true">
+                    </iframe>
+									</section>
+									<section>
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=learnvmwarexy-20&marketplace=amazon&region=US&placement=1785886886&asins=1785886886&linkId=IEDPPO3UFM6BZU5Y&show_border=true&link_opens_in_new_window=true">
+</iframe>
+									</section>
+									<section>
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=learnvmwarexy-20&marketplace=amazon&region=US&placement=B0156S8ZYS&asins=B0156S8ZYS&linkId=IO3OLAACPKH4T5N7&show_border=true&link_opens_in_new_window=true">
+</iframe>
+									</section>
+								</section>
+							</div>
+
+							<div id="content" class="8u skel-cell-important">
+								<section>
+									<div class="post">
+										<header>
+											<h2>VMWare News</h2>
+										</header>
+										<p>
+
+                    <div id="news"></div>
+
+                    </p>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- /Main -->
+
+<script type="text/javascript">
+
+function showFeed(data){
+    if(data.status == 'ok'){
+        for(var i=0;i<data.items.length;++i){
+
+            var link = data.items[i].link;
+            var title = data.items[i].title;
+            var article = "<div class='article'><a class='title' target='_blank' href='" + link + "'>" + title + "</a></div>";
+            $('#news').append(article);
+
+        }
+    }
+}
+
+</script>
+<script type="text/javascript" src="http://rss2json.com/api.json?callback=showFeed&rss_url=http://feeds.feedburner.com/planetvm/jeAy"></script>
+</body>
